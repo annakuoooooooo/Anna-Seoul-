@@ -3,22 +3,22 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>ANNA KR — 韓國代購</title>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans+TC:wght@300;400;500&family=Bebas+Neue&display=swap" rel="stylesheet"/>
+<title>ANNA KUOOO — 韓國代購</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans+TC:wght@300;400;500&family=Bebas+Neue&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#F5F5F3;--dark:#1C1C1C;--mid:#3A3A3A;--light:#8A8A8A;--border:#DCDCDC;--white:#FFFFFF;--red:#C0392B;--green:#2A6A2A}
-body{font-family:'Noto Sans TC',sans-serif;background:var(--bg);color:var(--dark);min-height:100vh}
+:root{--bg:#F5F5F3;--dark:#1C1C1C;--mid:#3A3A3A;--light:#8A8A8A;--border:#DCDCDC;--white:#FFFFFF;--red:#C0392B;--green:#2A6A2A;--baby-blue:#7BB8D4}
+body{font-family:'Noto Sans TC',sans-serif;font-weight:300;background:var(--bg);color:var(--dark);min-height:100vh}
 nav{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--white);border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:56px}
-.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:4px;color:var(--dark);text-decoration:none}
+.nav-logo{font-family:'Nunito',sans-serif;font-size:18px;letter-spacing:3px;color:var(--baby-blue);text-decoration:none;font-weight:900}
 .nav-sub{font-size:10px;letter-spacing:2px;color:var(--light);text-transform:uppercase}
 .cart-icon{position:relative;cursor:pointer;display:flex;align-items:center;gap:8px;background:var(--dark);color:var(--white);border:none;padding:8px 16px;font-size:12px;letter-spacing:1px;font-family:'Noto Sans TC',sans-serif}
 .cart-badge{background:var(--red);color:#fff;border-radius:50%;width:18px;height:18px;font-size:10px;display:none;align-items:center;justify-content:center;font-weight:700}
 .cart-badge.show{display:flex}
 .hero{margin-top:56px;background:var(--dark);color:var(--white);padding:64px 32px}
 .hero-label{font-size:10px;letter-spacing:3px;color:var(--light);text-transform:uppercase;margin-bottom:14px}
-.hero h1{font-family:'DM Serif Display',serif;font-size:clamp(38px,7vw,80px);line-height:1;margin-bottom:16px}
-.hero h1 em{font-style:italic;color:#C8C8C8}
+.hero h1{font-family:'Nunito',sans-serif;font-size:clamp(38px,7vw,80px);line-height:1;margin-bottom:16px;font-weight:900;color:#A8D4E8}
+.hero h1 em{font-style:italic;color:#F5E6A3;font-weight:800;font-size:0.6em;letter-spacing:6px}
 .hero p{font-size:12px;color:#9A9A9A;letter-spacing:1px;line-height:1.9}
 .notice-bar{background:var(--mid);color:var(--white);font-size:11px;letter-spacing:2px;text-align:center;padding:11px;text-transform:uppercase}
 .section{padding:48px 32px}
@@ -107,26 +107,26 @@ footer{padding:28px 32px;border-top:1px solid var(--border);display:flex;justify
 
 <nav>
   <div>
-    <a class="nav-logo" href="#">ANNA KR</a>
-    <div class="nav-sub">韓國代購</div>
+    <a class="nav-logo" href="#">ANNA KUOOO</a>
+    <div class="nav-sub">ANNA LOOK #SEOUL</div>
   </div>
   <button class="cart-icon" onclick="openCart()">
-    🛍 購物車
+    🛒 購物車
     <span class="cart-badge" id="cartBadge">0</span>
   </button>
 </nav>
 
 <div class="hero">
-  <div class="hero-label">Seoul Sourced — 首爾直採</div>
-  <h1>Korean<br/><em>Style</em><br/>直送</h1>
-  <p>精選首爾當季單品<br/>下單 → 匯款 → 等待抵台<br/>每批出貨前統一通知</p>
+  <div class="hero-label">快閃試營運 歡迎大購物一場✊🏽</div>
+  <h1>ANNA LOOK<span style="display:block;width:48px;height:1px;background:#555;margin:18px 0 14px"></span><em>#SEOUL</em></h1><p style="font-size:11px;letter-spacing:3px;color:#555;margin-top:10px;font-family:'Noto Sans TC',sans-serif;font-weight:300">안나 룩 &nbsp;·&nbsp; 서울 직송</p>
+  <p>連線價優惠<br/>下單 → 匯款 → 等待抵台<br/>每批出貨前統一通知</p>
 </div>
 
-<div class="notice-bar">⚠ 本批截單：6月20日 — 預計7月初抵台 — 匯款後請記得回報</div>
+<div class="notice-bar">好看的就包色 免得遺憾 連線價要把握噢鼻 🫶</div>
 
 <div class="section" id="products">
   <div class="section-header">
-    <div class="section-title">本期商品</div>
+    <div class="section-title">이번 시즌 상품</div>
     <div class="section-count">4 ITEMS</div>
   </div>
   <div class="grid">
@@ -212,24 +212,24 @@ footer{padding:28px 32px;border-top:1px solid var(--border);display:flex;justify
   <div class="section-header"><div class="section-title">訂購流程</div></div>
   <div class="steps">
     <div class="step"><div class="step-num">01</div><div class="step-title">選商品加入購物車</div><div class="step-desc">選好數量後加入，可加多樣商品</div></div>
-    <div class="step"><div class="step-num">02</div><div class="step-title">填寫個人資料</div><div class="step-desc">姓名、IG帳號、電話、7-11門市<br/>只填一次</div></div>
-    <div class="step"><div class="step-num">03</div><div class="step-title">匯款</div><div class="step-desc">商品總額 + NT$60 運費，一筆匯清</div></div>
-    <div class="step"><div class="step-num">04</div><div class="step-title">等待確認</div><div class="step-desc">Anna 確認匯款後以 IG 通知出貨</div></div>
+    <div class="step"><div class="step-num">02</div><div class="step-title">填寫個人資料</div><div class="step-desc">姓名、IG帳號、電話、7-11門市</div></div>
+    <div class="step"><div class="step-num">03</div><div class="step-title">匯款</div><div class="step-desc">商品總額 + NT$80 運費</div></div>
+    <div class="step"><div class="step-num">04</div><div class="step-title">等待確認</div><div class="step-desc">Anna 確認後通知出貨</div></div>
   </div>
 </div>
 
 <div class="bank-section">
   <h3>匯款資訊</h3>
   <div class="bank-grid">
-    <div class="bank-item"><div class="bank-label">銀行</div><div class="bank-value">玉山銀行 808</div></div>
-    <div class="bank-item"><div class="bank-label">帳號</div><div class="bank-value">000-1234-5678-9</div></div>
+    <div class="bank-item"><div class="bank-label">銀行</div><div class="bank-value">連線商業銀行 824</div></div>
+    <div class="bank-item"><div class="bank-label">帳號</div><div class="bank-value">111008370492</div></div>
     <div class="bank-item"><div class="bank-label">戶名</div><div class="bank-value">郭喬恩</div></div>
     <div class="bank-item"><div class="bank-label">注意</div><div class="bank-value" style="font-size:12px;color:#9A9A9A">送出訂單後，畫面會顯示應匯金額</div></div>
   </div>
 </div>
 
 <footer>
-  <span>© 2026 ANNA KR — 韓國代購</span>
+  <span>© 2026 ANNA KUOOO — 韓國代購</span>
   <span>IG: @annakuo143_</span>
 </footer>
 
@@ -245,7 +245,7 @@ footer{padding:28px 32px;border-top:1px solid var(--border);display:flex;justify
       <div class="cart-items" id="cartItemsList"></div>
       <div class="cart-summary" id="cartSummary" style="display:none">
         <div class="summary-row"><span>商品小計</span><span id="subtotalDisplay">NT$0</span></div>
-        <div class="summary-row"><span>運費（超商取貨）</span><span>NT$60</span></div>
+        <div class="summary-row"><span>運費（超商取貨）</span><span>NT$80</span></div>
         <div class="summary-row total"><span>總計</span><span id="totalDisplay">NT$60</span></div>
       </div>
       <button class="submit-btn" id="toStep2Btn" onclick="goStep2()" disabled>填寫資料 →</button>
@@ -268,9 +268,9 @@ footer{padding:28px 32px;border-top:1px solid var(--border);display:flex;justify
         <input type="tel" id="i-phone" placeholder="09XX-XXX-XXX"/>
       </div>
       <div class="form-row">
-        <label>7-11 門市名稱 *</label>
-        <input type="text" id="i-store" placeholder="例：台北忠孝門市"/>
-        <div class="hint">請確認門市名稱正確，避免取件問題</div>
+        <label>7-11 門市完整名稱 *</label>
+        <input type="text" id="i-store" placeholder="例：台北忠孝敦南門市"/>
+        <div class="hint">請先開交貨便 App 搜尋確認門市全名再填寫，填錯將影響取件</div>
       </div>
       <div class="form-row">
         <label>備註（尺寸、顏色等）</label>
@@ -293,13 +293,33 @@ footer{padding:28px 32px;border-top:1px solid var(--border);display:flex;justify
         <div class="bank-confirm">
           <div class="label">請匯款至</div>
           <div class="info">
-            玉山銀行 808<br/>
-            帳號：000-1234-5678-9<br/>
+            連線商業銀行 824<br/>
+            帳號：111008370492<br/>
             戶名：郭喬恩<br/>
             <strong id="totalConfirm" style="font-size:15px"></strong>
           </div>
         </div>
-        <p style="margin-top:16px;font-size:11px;color:var(--light)">匯款後請以 IG 私訊 Anna 回報末5碼<br/>Anna 確認後會通知出貨</p>
+        <div style="margin-top:24px;border-top:1px solid var(--border);padding-top:20px">
+          <div style="font-size:12px;font-weight:500;margin-bottom:14px;letter-spacing:1px">匯款完成後請回報</div>
+          <div id="payReportForm">
+            <div class="form-row">
+              <label>匯款帳號末5碼</label>
+              <input type="text" id="p-last5" maxlength="5" placeholder="12345"/>
+            </div>
+            <div class="form-row">
+              <label>訂單編號</label>
+              <input type="text" id="p-order" placeholder="例：#0608-123"/>
+            </div>
+            <div class="form-row">
+              <label>匯款金額</label>
+              <input type="number" id="p-amount" placeholder="NT$"/>
+            </div>
+            <button class="submit-btn" onclick="submitPaymentReport()" style="margin-top:4px">送出回報 →</button>
+          </div>
+          <div id="payReportDone" style="display:none;text-align:center;padding:16px 0;font-size:13px;color:var(--light)">
+            ✓ 回報成功，Anna 確認後會以 IG 通知出貨
+          </div>
+        </div>
       </div>
     </div>
 
@@ -308,9 +328,10 @@ footer{padding:28px 32px;border-top:1px solid var(--border);display:flex;justify
 
 <script>
 // 🔧 換成你的 Google Apps Script URL
+// Google Sheet 欄位順序：時間戳記、訂單編號、姓名、IG、電話、門市、商品、小計、運費、總計、備註
 const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz_xBHMzVfZL82EsFYr8oVJ1c-5enSWL8iFeGcVulr67fC3AIQEP7Tpg2LyaXAb_-nU/exec';
 
-const SHIPPING = 60;
+const SHIPPING = 80;
 let cart = {};
 
 const PRODUCTS = {
@@ -362,7 +383,7 @@ function renderCartItems() {
   const btn = document.getElementById('toStep2Btn');
 
   if (entries.length === 0) {
-    list.innerHTML = '<div class="empty-cart"><div style="font-size:40px">🛍</div><p>購物車是空的</p></div>';
+    list.innerHTML = '<div class="empty-cart"><p>購物車是空的</p></div>';
     summary.style.display = 'none';
     btn.disabled = true;
     return;
